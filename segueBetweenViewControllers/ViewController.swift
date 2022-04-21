@@ -8,12 +8,21 @@
 import UIKit
 
 class ViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
+    
+    var counter = 0
+    
+    @IBAction func incrementCounter(_ sender: UIButton) {
+        counter += 1
+        
+        sender.setTitle(String(counter), for: .normal)
     }
-
-
+       
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "ShowCounterSegue",
+            let destinationVC = segue.destination as? OtherViewController {
+                
+                destinationVC.numberToDisplay = counter
+        }
+    }
 }
 

@@ -13,6 +13,7 @@
 		9DD758602811F97F004413A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DD7585E2811F97F004413A6 /* Main.storyboard */; };
 		9DD758622811F982004413A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DD758612811F982004413A6 /* Assets.xcassets */; };
 		9DD758652811F982004413A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DD758632811F982004413A6 /* LaunchScreen.storyboard */; };
+		9DD7586D28120778004413A6 /* OtherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD7586C28120778004413A6 /* OtherViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		9DD758612811F982004413A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9DD758642811F982004413A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9DD758662811F982004413A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DD7586C28120778004413A6 /* OtherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				9DD7585A2811F97F004413A6 /* SceneDelegate.swift */,
 				9DD7585C2811F97F004413A6 /* ViewController.swift */,
 				9DD7585E2811F97F004413A6 /* Main.storyboard */,
+				9DD7586C28120778004413A6 /* OtherViewController.swift */,
 				9DD758612811F982004413A6 /* Assets.xcassets */,
 				9DD758632811F982004413A6 /* LaunchScreen.storyboard */,
 				9DD758662811F982004413A6 /* Info.plist */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9DD7585D2811F97F004413A6 /* ViewController.swift in Sources */,
+				9DD7586D28120778004413A6 /* OtherViewController.swift in Sources */,
 				9DD758592811F97F004413A6 /* AppDelegate.swift in Sources */,
 				9DD7585B2811F97F004413A6 /* SceneDelegate.swift in Sources */,
 			);
